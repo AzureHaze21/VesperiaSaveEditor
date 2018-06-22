@@ -33,6 +33,11 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.yuriMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.yuriCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -56,6 +61,11 @@
             this.yuriLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.repedeMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.repedeCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label81 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
@@ -79,6 +89,11 @@
             this.repedeLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.estelleMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.estelleCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -102,6 +117,11 @@
             this.estelleLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.karolMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.karolCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -125,6 +145,11 @@
             this.karolLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.ritaMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.ritaCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -148,6 +173,11 @@
             this.ritaLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label104 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.ravenMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.ravenCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
@@ -171,6 +201,11 @@
             this.ravenLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.judithMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.judithCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
@@ -194,6 +229,11 @@
             this.judithLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.flynnMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.flynnCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
@@ -217,6 +257,11 @@
             this.flynnLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
+            this.pattyMaxSp = new System.Windows.Forms.NumericUpDown();
+            this.pattyCurrSp = new System.Windows.Forms.NumericUpDown();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
@@ -265,6 +310,9 @@
             this.fileSaved = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.yuriMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yuriCurrSp)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yuriMDEF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yuriAgi)).BeginInit();
@@ -278,6 +326,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.yuriLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage6.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.repedeMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repedeCurrSp)).BeginInit();
             this.groupBox9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.repedeMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repedeAgi)).BeginInit();
@@ -291,6 +342,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.repedeLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage2.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.estelleMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.estelleCurrSp)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.estelleMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.estelleAgi)).BeginInit();
@@ -304,6 +358,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.estelleLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabPage3.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.karolMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.karolCurrSp)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.karolMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.karolAgi)).BeginInit();
@@ -317,6 +374,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.karolLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.tabPage4.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ritaMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ritaCurrSp)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ritaMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ritaAgi)).BeginInit();
@@ -330,6 +390,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ritaLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tabPage5.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ravenMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ravenCurrSp)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ravenMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ravenAgi)).BeginInit();
@@ -343,6 +406,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ravenLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.tabPage7.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithCurrSp)).BeginInit();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.judithMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.judithAgi)).BeginInit();
@@ -356,6 +422,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.judithLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabPage8.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnCurrSp)).BeginInit();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flynnMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.flynnAgi)).BeginInit();
@@ -369,6 +438,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.flynnLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tabPage9.SuspendLayout();
+            this.groupBox18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxSp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyCurrSp)).BeginInit();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pattyMDef)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pattyAgi)).BeginInit();
@@ -436,6 +508,7 @@
             // tabPage1
             // 
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.Controls.Add(this.groupBox10);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -445,6 +518,61 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Yuri";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label95);
+            this.groupBox10.Controls.Add(this.label94);
+            this.groupBox10.Controls.Add(this.yuriMaxSp);
+            this.groupBox10.Controls.Add(this.yuriCurrSp);
+            this.groupBox10.Location = new System.Drawing.Point(3, 133);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(401, 65);
+            this.groupBox10.TabIndex = 3;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Skill Points";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(70, 18);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(28, 13);
+            this.label95.TabIndex = 3;
+            this.label95.Text = "Max";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(6, 18);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(32, 13);
+            this.label94.TabIndex = 2;
+            this.label94.Text = "Curr.";
+            // 
+            // yuriMaxSp
+            // 
+            this.yuriMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.yuriMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.yuriMaxSp.Name = "yuriMaxSp";
+            this.yuriMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.yuriMaxSp.TabIndex = 1;
+            // 
+            // yuriCurrSp
+            // 
+            this.yuriCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.yuriCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.yuriCurrSp.Name = "yuriCurrSp";
+            this.yuriCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.yuriCurrSp.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -469,6 +597,7 @@
             this.groupBox2.Controls.Add(this.yuriHp);
             this.groupBox2.Controls.Add(this.yuriLvl);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
@@ -701,6 +830,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.groupBox11);
             this.tabPage6.Controls.Add(this.groupBox9);
             this.tabPage6.Controls.Add(this.pictureBox3);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
@@ -709,6 +839,61 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Repede";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.label96);
+            this.groupBox11.Controls.Add(this.label97);
+            this.groupBox11.Controls.Add(this.repedeMaxSp);
+            this.groupBox11.Controls.Add(this.repedeCurrSp);
+            this.groupBox11.Location = new System.Drawing.Point(3, 133);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(401, 65);
+            this.groupBox11.TabIndex = 4;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Skill Points";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(70, 18);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(28, 13);
+            this.label96.TabIndex = 3;
+            this.label96.Text = "Max";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(6, 18);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(32, 13);
+            this.label97.TabIndex = 2;
+            this.label97.Text = "Curr.";
+            // 
+            // repedeMaxSp
+            // 
+            this.repedeMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.repedeMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.repedeMaxSp.Name = "repedeMaxSp";
+            this.repedeMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.repedeMaxSp.TabIndex = 1;
+            // 
+            // repedeCurrSp
+            // 
+            this.repedeCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.repedeCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.repedeCurrSp.Name = "repedeCurrSp";
+            this.repedeCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.repedeCurrSp.TabIndex = 0;
             // 
             // groupBox9
             // 
@@ -961,6 +1146,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox12);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -970,6 +1156,61 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Estelle";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.label98);
+            this.groupBox12.Controls.Add(this.label99);
+            this.groupBox12.Controls.Add(this.estelleMaxSp);
+            this.groupBox12.Controls.Add(this.estelleCurrSp);
+            this.groupBox12.Location = new System.Drawing.Point(3, 133);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(401, 65);
+            this.groupBox12.TabIndex = 4;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Skill Points";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(70, 18);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(28, 13);
+            this.label98.TabIndex = 3;
+            this.label98.Text = "Max";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(6, 18);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(32, 13);
+            this.label99.TabIndex = 2;
+            this.label99.Text = "Curr.";
+            // 
+            // estelleMaxSp
+            // 
+            this.estelleMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.estelleMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.estelleMaxSp.Name = "estelleMaxSp";
+            this.estelleMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.estelleMaxSp.TabIndex = 1;
+            // 
+            // estelleCurrSp
+            // 
+            this.estelleCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.estelleCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.estelleCurrSp.Name = "estelleCurrSp";
+            this.estelleCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.estelleCurrSp.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -1222,6 +1463,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.groupBox13);
             this.tabPage3.Controls.Add(this.groupBox4);
             this.tabPage3.Controls.Add(this.pictureBox8);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
@@ -1230,6 +1472,61 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Karol";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.label100);
+            this.groupBox13.Controls.Add(this.label101);
+            this.groupBox13.Controls.Add(this.karolMaxSp);
+            this.groupBox13.Controls.Add(this.karolCurrSp);
+            this.groupBox13.Location = new System.Drawing.Point(3, 133);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(401, 65);
+            this.groupBox13.TabIndex = 4;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Skill Points";
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(70, 18);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(28, 13);
+            this.label100.TabIndex = 3;
+            this.label100.Text = "Max";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(6, 18);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(32, 13);
+            this.label101.TabIndex = 2;
+            this.label101.Text = "Curr.";
+            // 
+            // karolMaxSp
+            // 
+            this.karolMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.karolMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.karolMaxSp.Name = "karolMaxSp";
+            this.karolMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.karolMaxSp.TabIndex = 1;
+            // 
+            // karolCurrSp
+            // 
+            this.karolCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.karolCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.karolCurrSp.Name = "karolCurrSp";
+            this.karolCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.karolCurrSp.TabIndex = 0;
             // 
             // groupBox4
             // 
@@ -1482,6 +1779,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.groupBox14);
             this.tabPage4.Controls.Add(this.groupBox1);
             this.tabPage4.Controls.Add(this.pictureBox9);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
@@ -1490,6 +1788,61 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Rita";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.label102);
+            this.groupBox14.Controls.Add(this.label103);
+            this.groupBox14.Controls.Add(this.ritaMaxSp);
+            this.groupBox14.Controls.Add(this.ritaCurrSp);
+            this.groupBox14.Location = new System.Drawing.Point(3, 133);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(401, 65);
+            this.groupBox14.TabIndex = 4;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Skill Points";
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(70, 18);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(28, 13);
+            this.label102.TabIndex = 3;
+            this.label102.Text = "Max";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(6, 18);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(32, 13);
+            this.label103.TabIndex = 2;
+            this.label103.Text = "Curr.";
+            // 
+            // ritaMaxSp
+            // 
+            this.ritaMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.ritaMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.ritaMaxSp.Name = "ritaMaxSp";
+            this.ritaMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.ritaMaxSp.TabIndex = 1;
+            // 
+            // ritaCurrSp
+            // 
+            this.ritaCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.ritaCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.ritaCurrSp.Name = "ritaCurrSp";
+            this.ritaCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.ritaCurrSp.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -1742,6 +2095,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.groupBox15);
             this.tabPage5.Controls.Add(this.groupBox5);
             this.tabPage5.Controls.Add(this.pictureBox7);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -1750,6 +2104,61 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Raven";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.label104);
+            this.groupBox15.Controls.Add(this.label105);
+            this.groupBox15.Controls.Add(this.ravenMaxSp);
+            this.groupBox15.Controls.Add(this.ravenCurrSp);
+            this.groupBox15.Location = new System.Drawing.Point(3, 133);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(401, 65);
+            this.groupBox15.TabIndex = 4;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Skill Points";
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(70, 18);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(28, 13);
+            this.label104.TabIndex = 3;
+            this.label104.Text = "Max";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(6, 18);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(32, 13);
+            this.label105.TabIndex = 2;
+            this.label105.Text = "Curr.";
+            // 
+            // ravenMaxSp
+            // 
+            this.ravenMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.ravenMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.ravenMaxSp.Name = "ravenMaxSp";
+            this.ravenMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.ravenMaxSp.TabIndex = 1;
+            // 
+            // ravenCurrSp
+            // 
+            this.ravenCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.ravenCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.ravenCurrSp.Name = "ravenCurrSp";
+            this.ravenCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.ravenCurrSp.TabIndex = 0;
             // 
             // groupBox5
             // 
@@ -2003,6 +2412,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.groupBox16);
             this.tabPage7.Controls.Add(this.groupBox6);
             this.tabPage7.Controls.Add(this.pictureBox6);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
@@ -2011,6 +2421,61 @@
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Judith";
             this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.label106);
+            this.groupBox16.Controls.Add(this.label107);
+            this.groupBox16.Controls.Add(this.judithMaxSp);
+            this.groupBox16.Controls.Add(this.judithCurrSp);
+            this.groupBox16.Location = new System.Drawing.Point(3, 133);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(401, 65);
+            this.groupBox16.TabIndex = 4;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "Skill Points";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(70, 18);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(28, 13);
+            this.label106.TabIndex = 3;
+            this.label106.Text = "Max";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(6, 18);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(32, 13);
+            this.label107.TabIndex = 2;
+            this.label107.Text = "Curr.";
+            // 
+            // judithMaxSp
+            // 
+            this.judithMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.judithMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.judithMaxSp.Name = "judithMaxSp";
+            this.judithMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.judithMaxSp.TabIndex = 1;
+            // 
+            // judithCurrSp
+            // 
+            this.judithCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.judithCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.judithCurrSp.Name = "judithCurrSp";
+            this.judithCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.judithCurrSp.TabIndex = 0;
             // 
             // groupBox6
             // 
@@ -2263,6 +2728,7 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.groupBox17);
             this.tabPage8.Controls.Add(this.groupBox7);
             this.tabPage8.Controls.Add(this.pictureBox10);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
@@ -2271,6 +2737,61 @@
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Flynn";
             this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.label108);
+            this.groupBox17.Controls.Add(this.label109);
+            this.groupBox17.Controls.Add(this.flynnMaxSp);
+            this.groupBox17.Controls.Add(this.flynnCurrSp);
+            this.groupBox17.Location = new System.Drawing.Point(3, 133);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(401, 65);
+            this.groupBox17.TabIndex = 6;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "Skill Points";
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(70, 18);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(28, 13);
+            this.label108.TabIndex = 3;
+            this.label108.Text = "Max";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(6, 18);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(32, 13);
+            this.label109.TabIndex = 2;
+            this.label109.Text = "Curr.";
+            // 
+            // flynnMaxSp
+            // 
+            this.flynnMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.flynnMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.flynnMaxSp.Name = "flynnMaxSp";
+            this.flynnMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.flynnMaxSp.TabIndex = 1;
+            // 
+            // flynnCurrSp
+            // 
+            this.flynnCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.flynnCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.flynnCurrSp.Name = "flynnCurrSp";
+            this.flynnCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.flynnCurrSp.TabIndex = 0;
             // 
             // groupBox7
             // 
@@ -2523,6 +3044,7 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.Controls.Add(this.groupBox18);
             this.tabPage9.Controls.Add(this.groupBox8);
             this.tabPage9.Controls.Add(this.pictureBox5);
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
@@ -2531,6 +3053,61 @@
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Patty";
             this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.label110);
+            this.groupBox18.Controls.Add(this.label111);
+            this.groupBox18.Controls.Add(this.pattyMaxSp);
+            this.groupBox18.Controls.Add(this.pattyCurrSp);
+            this.groupBox18.Location = new System.Drawing.Point(3, 133);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(401, 65);
+            this.groupBox18.TabIndex = 4;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Skill Points";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(70, 18);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(28, 13);
+            this.label110.TabIndex = 3;
+            this.label110.Text = "Max";
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Location = new System.Drawing.Point(6, 18);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(32, 13);
+            this.label111.TabIndex = 2;
+            this.label111.Text = "Curr.";
+            // 
+            // pattyMaxSp
+            // 
+            this.pattyMaxSp.Location = new System.Drawing.Point(73, 37);
+            this.pattyMaxSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.pattyMaxSp.Name = "pattyMaxSp";
+            this.pattyMaxSp.Size = new System.Drawing.Size(61, 22);
+            this.pattyMaxSp.TabIndex = 1;
+            // 
+            // pattyCurrSp
+            // 
+            this.pattyCurrSp.Location = new System.Drawing.Point(6, 37);
+            this.pattyCurrSp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.pattyCurrSp.Name = "pattyCurrSp";
+            this.pattyCurrSp.Size = new System.Drawing.Size(61, 22);
+            this.pattyCurrSp.TabIndex = 0;
             // 
             // groupBox8
             // 
@@ -2806,9 +3383,9 @@
             this.tabPage11.Controls.Add(this.gradeBox);
             this.tabPage11.Controls.Add(this.chipsBox);
             this.tabPage11.Controls.Add(this.galdValueBox);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Location = new System.Drawing.Point(4, 23);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(600, 313);
+            this.tabPage11.Size = new System.Drawing.Size(600, 312);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Misc";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -2947,10 +3524,11 @@
             // 
             // saveTextBox
             // 
+            this.saveTextBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveTextBox.Location = new System.Drawing.Point(7, 40);
             this.saveTextBox.Name = "saveTextBox";
             this.saveTextBox.ReadOnly = true;
-            this.saveTextBox.Size = new System.Drawing.Size(357, 20);
+            this.saveTextBox.Size = new System.Drawing.Size(357, 22);
             this.saveTextBox.TabIndex = 5;
             // 
             // btnSave
@@ -3037,10 +3615,15 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.loadBtn);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "ToV:SE";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.yuriMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yuriCurrSp)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yuriMDEF)).EndInit();
@@ -3055,6 +3638,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.yuriLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage6.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.repedeMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repedeCurrSp)).EndInit();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.repedeMDef)).EndInit();
@@ -3069,6 +3656,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.repedeLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.estelleMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.estelleCurrSp)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.estelleMDef)).EndInit();
@@ -3083,6 +3674,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.estelleLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.karolMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.karolCurrSp)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.karolMDef)).EndInit();
@@ -3097,6 +3692,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.karolLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ritaMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ritaCurrSp)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ritaMDef)).EndInit();
@@ -3111,6 +3710,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.ritaLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.tabPage5.ResumeLayout(false);
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ravenMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ravenCurrSp)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ravenMDef)).EndInit();
@@ -3125,6 +3728,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.ravenLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.tabPage7.ResumeLayout(false);
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithCurrSp)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.judithMDef)).EndInit();
@@ -3139,6 +3746,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.judithLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabPage8.ResumeLayout(false);
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnCurrSp)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flynnMDef)).EndInit();
@@ -3153,6 +3764,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.flynnLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.tabPage9.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxSp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyCurrSp)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pattyMDef)).EndInit();
@@ -3415,6 +4030,51 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label fileLoaded;
         private System.Windows.Forms.Label fileSaved;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.NumericUpDown yuriMaxSp;
+        private System.Windows.Forms.NumericUpDown yuriCurrSp;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.NumericUpDown repedeMaxSp;
+        private System.Windows.Forms.NumericUpDown repedeCurrSp;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.NumericUpDown estelleMaxSp;
+        private System.Windows.Forms.NumericUpDown estelleCurrSp;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.NumericUpDown karolMaxSp;
+        private System.Windows.Forms.NumericUpDown karolCurrSp;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.NumericUpDown ritaMaxSp;
+        private System.Windows.Forms.NumericUpDown ritaCurrSp;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.NumericUpDown ravenMaxSp;
+        private System.Windows.Forms.NumericUpDown ravenCurrSp;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.NumericUpDown judithMaxSp;
+        private System.Windows.Forms.NumericUpDown judithCurrSp;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.Label label108;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.NumericUpDown flynnMaxSp;
+        private System.Windows.Forms.NumericUpDown flynnCurrSp;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.Label label110;
+        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.NumericUpDown pattyMaxSp;
+        private System.Windows.Forms.NumericUpDown pattyCurrSp;
     }
 }
 

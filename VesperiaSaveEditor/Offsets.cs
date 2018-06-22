@@ -27,7 +27,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C;
                 public static readonly UInt32 agiAddr = 0x00A8A74;
                 public static readonly UInt32 luckAddr = 0x00A8A78;
-                //public static readonly UInt32 eqTitleAddr = 0x00A8987;
+                public static readonly UInt32 spAddr = 0x00AAE20;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24;
             }
 
             public struct Estelle
@@ -43,6 +44,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x4010;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x4010;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x4010;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x4010;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x4010;
             }
 
             public struct Karol
@@ -58,6 +61,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x8020;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x8020;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x8020;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x8020;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x8020;
             }
 
             public struct Rita
@@ -73,6 +78,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0xC030;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0xC030;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0xC030;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0xC030;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0xC030;
             }
 
             public struct Raven
@@ -88,6 +95,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x10040;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x10040;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x10040;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x10040;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x10040;
             }
 
             public struct Judith
@@ -103,6 +112,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x14050;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x14050;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x14050;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x14050;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x14050;
             }
 
             public struct Repede
@@ -118,6 +129,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x18060;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x18060;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x18060;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x18060;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x18060;
             }
 
             public struct Flynn
@@ -133,6 +146,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x1C070;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x1C070;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x1C070;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x1C070;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x1C070;
             }
 
             public struct Patty
@@ -148,6 +163,8 @@ namespace VesperiaSE
                 public static readonly UInt32 mDefAddr = 0x00A8A6C + 0x20080;
                 public static readonly UInt32 agiAddr = 0x00A8A74 + 0x20080;
                 public static readonly UInt32 luckAddr = 0x00A8A78 + 0x20080;
+                public static readonly UInt32 spAddr = 0x00AAE20 + 0x20080;
+                public static readonly UInt32 maxSpAddr = 0x00AAE24 + 0x20080;
             }
         }
 

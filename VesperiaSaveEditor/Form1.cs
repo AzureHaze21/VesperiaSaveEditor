@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
+using System.Drawing.Text;
 using VesperiaSE;
 
 namespace VesperiaSaveEditor
@@ -8,7 +9,6 @@ namespace VesperiaSaveEditor
     public partial class Form1 : Form
     {
         private byte[] data = new byte[Constants.SAVEDATA_SIZE];
-        private string file = "";
 
         public Form1()
         {
@@ -63,6 +63,8 @@ namespace VesperiaSaveEditor
             yuriMDEF.Value = ReadInt(Offsets.Characters.Yuri.mDefAddr, (UInt32)yuriMDEF.Maximum);
             yuriAgi.Value = ReadInt(Offsets.Characters.Yuri.agiAddr, (UInt32)yuriAgi.Maximum);
             yuriLuck.Value = ReadInt(Offsets.Characters.Yuri.luckAddr, (UInt32)yuriLuck.Maximum);
+            yuriCurrSp.Value = ReadInt(Offsets.Characters.Yuri.spAddr, (UInt32)yuriCurrSp.Maximum);
+            yuriMaxSp.Value = ReadInt(Offsets.Characters.Yuri.maxSpAddr, (UInt32)yuriMaxSp.Maximum);
         }
 
         private void UpdateRepede()
@@ -77,6 +79,8 @@ namespace VesperiaSaveEditor
             repedeMDef.Value = ReadInt(Offsets.Characters.Repede.mDefAddr, (UInt32)repedeMDef.Maximum);
             repedeAgi.Value = ReadInt(Offsets.Characters.Repede.agiAddr, (UInt32)repedeAgi.Maximum);
             repedeLuck.Value = ReadInt(Offsets.Characters.Repede.luckAddr, (UInt32)repedeLuck.Maximum);
+            repedeCurrSp.Value = ReadInt(Offsets.Characters.Repede.spAddr, (UInt32)repedeCurrSp.Maximum);
+            repedeMaxSp.Value = ReadInt(Offsets.Characters.Repede.maxSpAddr, (UInt32)repedeMaxSp.Maximum);
         }
 
         private void UpdateEstelle()
@@ -91,6 +95,8 @@ namespace VesperiaSaveEditor
             estelleMDef.Value = ReadInt(Offsets.Characters.Estelle.mDefAddr, (UInt32)estelleMDef.Maximum);
             estelleAgi.Value = ReadInt(Offsets.Characters.Estelle.agiAddr, (UInt32)estelleAgi.Maximum);
             estelleLuck.Value = ReadInt(Offsets.Characters.Estelle.luckAddr, (UInt32)estelleLuck.Maximum);
+            estelleCurrSp.Value = ReadInt(Offsets.Characters.Estelle.spAddr, (UInt32)estelleCurrSp.Maximum);
+            estelleMaxSp.Value = ReadInt(Offsets.Characters.Estelle.maxSpAddr, (UInt32)estelleMaxSp.Maximum);
         }
 
         private void UpdateKarol()
@@ -105,6 +111,8 @@ namespace VesperiaSaveEditor
             karolMDef.Value = ReadInt(Offsets.Characters.Karol.mDefAddr, (UInt32)karolMDef.Maximum);
             karolAgi.Value = ReadInt(Offsets.Characters.Karol.agiAddr, (UInt32)karolAgi.Maximum);
             karolLuck.Value = ReadInt(Offsets.Characters.Karol.luckAddr, (UInt32)estelleLuck.Maximum);
+            karolCurrSp.Value = ReadInt(Offsets.Characters.Karol.spAddr, (UInt32)karolCurrSp.Maximum);
+            karolMaxSp.Value = ReadInt(Offsets.Characters.Karol.maxSpAddr, (UInt32)karolMaxSp.Maximum);
         }
 
         private void UpdateRita()
@@ -119,6 +127,8 @@ namespace VesperiaSaveEditor
             ritaMDef.Value = ReadInt(Offsets.Characters.Rita.mDefAddr, (UInt32)ritaMDef.Maximum);
             ritaAgi.Value = ReadInt(Offsets.Characters.Rita.agiAddr, (UInt32)ritaAgi.Maximum);
             ritaLuck.Value = ReadInt(Offsets.Characters.Rita.luckAddr, (UInt32)ritaLuck.Maximum);
+            ritaCurrSp.Value = ReadInt(Offsets.Characters.Rita.spAddr, (UInt32)ritaCurrSp.Maximum);
+            ritaMaxSp.Value = ReadInt(Offsets.Characters.Rita.maxSpAddr, (UInt32)ritaMaxSp.Maximum);
         }
 
         private void UpdateRaven()
@@ -133,6 +143,8 @@ namespace VesperiaSaveEditor
             ravenMDef.Value = ReadInt(Offsets.Characters.Raven.mDefAddr, (UInt32)ravenMDef.Maximum);
             ravenAgi.Value = ReadInt(Offsets.Characters.Raven.agiAddr, (UInt32)ravenAgi.Maximum);
             ravenLuck.Value = ReadInt(Offsets.Characters.Raven.luckAddr, (UInt32)ravenLuck.Maximum);
+            ravenCurrSp.Value = ReadInt(Offsets.Characters.Raven.spAddr, (UInt32)ravenCurrSp.Maximum);
+            ravenMaxSp.Value = ReadInt(Offsets.Characters.Raven.maxSpAddr, (UInt32)ravenMaxSp.Maximum);
         }
 
         private void UpdateJudith()
@@ -147,6 +159,8 @@ namespace VesperiaSaveEditor
             judithMDef.Value = ReadInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Maximum);
             judithAgi.Value = ReadInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Maximum);
             judithLuck.Value = ReadInt(Offsets.Characters.Judith.luckAddr, (UInt32)judithLuck.Maximum);
+            judithCurrSp.Value = ReadInt(Offsets.Characters.Judith.spAddr, (UInt32)judithCurrSp.Maximum);
+            judithMaxSp.Value = ReadInt(Offsets.Characters.Judith.maxSpAddr, (UInt32)judithMaxSp.Maximum);
         }
 
         private void UpdateFlynn()
@@ -161,6 +175,8 @@ namespace VesperiaSaveEditor
             flynnMDef.Value = ReadInt(Offsets.Characters.Flynn.mDefAddr, (UInt32)flynnMDef.Maximum);
             flynnAgi.Value = ReadInt(Offsets.Characters.Flynn.agiAddr, (UInt32)flynnAgi.Maximum);
             flynnLuck.Value = ReadInt(Offsets.Characters.Flynn.luckAddr, (UInt32)flynnLuck.Maximum);
+            flynnCurrSp.Value = ReadInt(Offsets.Characters.Flynn.spAddr, (UInt32)flynnCurrSp.Maximum);
+            flynnMaxSp.Value = ReadInt(Offsets.Characters.Flynn.maxSpAddr, (UInt32)flynnMaxSp.Maximum);
         }
 
         private void UpdatePatty()
@@ -175,6 +191,8 @@ namespace VesperiaSaveEditor
             pattyMDef.Value = ReadInt(Offsets.Characters.Patty.mDefAddr, (UInt32)pattyMDef.Maximum);
             pattyAgi.Value = ReadInt(Offsets.Characters.Patty.agiAddr, (UInt32)pattyAgi.Maximum);
             pattyLuck.Value = ReadInt(Offsets.Characters.Patty.luckAddr, (UInt32)pattyLuck.Maximum);
+            pattyCurrSp.Value = ReadInt(Offsets.Characters.Patty.spAddr, (UInt32)pattyCurrSp.Maximum);
+            pattyMaxSp.Value = ReadInt(Offsets.Characters.Patty.maxSpAddr, (UInt32)pattyMaxSp.Maximum);
         }
 
         private void UpdateCharacters()
@@ -211,6 +229,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Yuri.mDefAddr, (UInt32)yuriMDEF.Value);
             WriteInt(Offsets.Characters.Yuri.agiAddr, (UInt32)yuriAgi.Value);
             WriteInt(Offsets.Characters.Yuri.luckAddr, (UInt32)yuriLuck.Value);
+            WriteInt(Offsets.Characters.Yuri.spAddr, (UInt32)yuriCurrSp.Value);
+            WriteInt(Offsets.Characters.Yuri.maxSpAddr, (UInt32)yuriMaxSp.Value);
 
             /* Repede's data */
             WriteInt(Offsets.Characters.Repede.lvlAddr, (UInt32)repedeLvl.Value);
@@ -223,6 +243,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Repede.mDefAddr, (UInt32)repedeMDef.Value);
             WriteInt(Offsets.Characters.Repede.agiAddr, (UInt32)repedeAgi.Value);
             WriteInt(Offsets.Characters.Repede.luckAddr, (UInt32)repedeLuck.Value);
+            WriteInt(Offsets.Characters.Repede.spAddr, (UInt32)repedeCurrSp.Value);
+            WriteInt(Offsets.Characters.Repede.maxSpAddr, (UInt32)repedeMaxSp.Value);
 
             /* Estelle's data */
             WriteInt(Offsets.Characters.Estelle.lvlAddr, (UInt32)estelleLvl.Value);
@@ -235,6 +257,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Estelle.mDefAddr, (UInt32)estelleMDef.Value);
             WriteInt(Offsets.Characters.Estelle.agiAddr, (UInt32)estelleAgi.Value);
             WriteInt(Offsets.Characters.Estelle.luckAddr, (UInt32)estelleLuck.Value);
+            WriteInt(Offsets.Characters.Estelle.spAddr, (UInt32)estelleCurrSp.Value);
+            WriteInt(Offsets.Characters.Estelle.maxSpAddr, (UInt32)estelleMaxSp.Value);
 
             /* Karol's data */
             WriteInt(Offsets.Characters.Karol.lvlAddr, (UInt32)karolLvl.Value);
@@ -247,6 +271,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Karol.mDefAddr, (UInt32)karolMDef.Value);
             WriteInt(Offsets.Characters.Karol.agiAddr, (UInt32)karolAgi.Value);
             WriteInt(Offsets.Characters.Karol.luckAddr, (UInt32)karolLuck.Value);
+            WriteInt(Offsets.Characters.Karol.spAddr, (UInt32)karolCurrSp.Value);
+            WriteInt(Offsets.Characters.Karol.maxSpAddr, (UInt32)karolMaxSp.Value);
 
             /* Rita's data */
             WriteInt(Offsets.Characters.Rita.lvlAddr, (UInt32)ritaLvl.Value);
@@ -259,6 +285,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Rita.mDefAddr, (UInt32)ritaMDef.Value);
             WriteInt(Offsets.Characters.Rita.agiAddr, (UInt32)ritaAgi.Value);
             WriteInt(Offsets.Characters.Rita.luckAddr, (UInt32)ritaLuck.Value);
+            WriteInt(Offsets.Characters.Rita.spAddr, (UInt32)ritaCurrSp.Value);
+            WriteInt(Offsets.Characters.Rita.maxSpAddr, (UInt32)ritaMaxSp.Value);
 
             /* Raven's data */
             WriteInt(Offsets.Characters.Raven.lvlAddr, (UInt32)ravenLvl.Value);
@@ -271,6 +299,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Raven.mDefAddr, (UInt32)ravenMDef.Value);
             WriteInt(Offsets.Characters.Raven.agiAddr, (UInt32)ravenAgi.Value);
             WriteInt(Offsets.Characters.Raven.luckAddr, (UInt32)ravenLuck.Value);
+            WriteInt(Offsets.Characters.Raven.spAddr, (UInt32)ravenCurrSp.Value);
+            WriteInt(Offsets.Characters.Raven.maxSpAddr, (UInt32)ravenMaxSp.Value);
 
             /* Judith's data */
             WriteInt(Offsets.Characters.Judith.lvlAddr, (UInt32)judithLvl.Value);
@@ -283,6 +313,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Value);
             WriteInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Value);
             WriteInt(Offsets.Characters.Judith.luckAddr, (UInt32)judithLuck.Value);
+            WriteInt(Offsets.Characters.Judith.spAddr, (UInt32)judithCurrSp.Value);
+            WriteInt(Offsets.Characters.Judith.maxSpAddr, (UInt32)judithMaxSp.Value);
 
             /* Flynn's data */
             WriteInt(Offsets.Characters.Flynn.lvlAddr, (UInt32)flynnLvl.Value);
@@ -295,6 +327,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Flynn.mDefAddr, (UInt32)flynnMDef.Value);
             WriteInt(Offsets.Characters.Flynn.agiAddr, (UInt32)flynnAgi.Value);
             WriteInt(Offsets.Characters.Flynn.luckAddr, (UInt32)flynnLuck.Value);
+            WriteInt(Offsets.Characters.Flynn.spAddr, (UInt32)flynnCurrSp.Value);
+            WriteInt(Offsets.Characters.Flynn.maxSpAddr, (UInt32)flynnMaxSp.Value);
 
             /* Patty's data */
             WriteInt(Offsets.Characters.Patty.lvlAddr, (UInt32)pattyLvl.Value);
@@ -307,6 +341,8 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Patty.mDefAddr, (UInt32)pattyMDef.Value);
             WriteInt(Offsets.Characters.Patty.agiAddr, (UInt32)pattyAgi.Value);
             WriteInt(Offsets.Characters.Patty.luckAddr, (UInt32)pattyLuck.Value);
+            WriteInt(Offsets.Characters.Patty.spAddr, (UInt32)pattyCurrSp.Value);
+            WriteInt(Offsets.Characters.Patty.maxSpAddr, (UInt32)pattyMaxSp.Value);
         }
         #endregion
 
@@ -376,6 +412,7 @@ namespace VesperiaSaveEditor
             if (saveTextBox.Text != "")
             {
                 progressBar1.Value = 0;
+                fileSaved.Visible = false;
                 successLabel.Visible = false;
                 UpdateData();
                 File.WriteAllBytes(saveFileDialog1.FileName, data);
