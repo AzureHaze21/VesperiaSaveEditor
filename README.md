@@ -1,14 +1,14 @@
 # VesperiaSaveEditor
 Tales of Vesperia save editor
 
-#Disclaimer
+# Disclaimer
 This is extremely WIP
 
-#Working
+# Working
 Character editing
 
-#Missing
+# Missing
 Everything else
 
-#Copyright
+# Copyright
 This software is not associated with Tales of Vesperia or the Tales of series. All images used are property of Bandai Namco Entertainment.
