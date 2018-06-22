@@ -178,20 +178,20 @@
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
-            this.numericUpDown51 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown52 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown53 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown54 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown55 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown56 = new System.Windows.Forms.NumericUpDown();
+            this.judithMDef = new System.Windows.Forms.NumericUpDown();
+            this.judithAgi = new System.Windows.Forms.NumericUpDown();
+            this.judithPDef = new System.Windows.Forms.NumericUpDown();
+            this.judithLuck = new System.Windows.Forms.NumericUpDown();
+            this.judithMAtk = new System.Windows.Forms.NumericUpDown();
+            this.judithPAtk = new System.Windows.Forms.NumericUpDown();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
-            this.numericUpDown57 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown58 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown59 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown60 = new System.Windows.Forms.NumericUpDown();
+            this.judithExp = new System.Windows.Forms.NumericUpDown();
+            this.judithMaxTp = new System.Windows.Forms.NumericUpDown();
+            this.judithMaxHp = new System.Windows.Forms.NumericUpDown();
+            this.judithLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
@@ -261,6 +261,8 @@
             this.successLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.fileLoaded = new System.Windows.Forms.Label();
+            this.fileSaved = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -342,16 +344,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.tabPage7.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithAgi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithPDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithLuck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithPAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithExp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxTp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxHp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabPage8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -2018,20 +2020,20 @@
             this.groupBox6.Controls.Add(this.label54);
             this.groupBox6.Controls.Add(this.label55);
             this.groupBox6.Controls.Add(this.label56);
-            this.groupBox6.Controls.Add(this.numericUpDown51);
-            this.groupBox6.Controls.Add(this.numericUpDown52);
-            this.groupBox6.Controls.Add(this.numericUpDown53);
-            this.groupBox6.Controls.Add(this.numericUpDown54);
-            this.groupBox6.Controls.Add(this.numericUpDown55);
-            this.groupBox6.Controls.Add(this.numericUpDown56);
+            this.groupBox6.Controls.Add(this.judithMDef);
+            this.groupBox6.Controls.Add(this.judithAgi);
+            this.groupBox6.Controls.Add(this.judithPDef);
+            this.groupBox6.Controls.Add(this.judithLuck);
+            this.groupBox6.Controls.Add(this.judithMAtk);
+            this.groupBox6.Controls.Add(this.judithPAtk);
             this.groupBox6.Controls.Add(this.label57);
             this.groupBox6.Controls.Add(this.label58);
             this.groupBox6.Controls.Add(this.label59);
             this.groupBox6.Controls.Add(this.label60);
-            this.groupBox6.Controls.Add(this.numericUpDown57);
-            this.groupBox6.Controls.Add(this.numericUpDown58);
-            this.groupBox6.Controls.Add(this.numericUpDown59);
-            this.groupBox6.Controls.Add(this.numericUpDown60);
+            this.groupBox6.Controls.Add(this.judithExp);
+            this.groupBox6.Controls.Add(this.judithMaxTp);
+            this.groupBox6.Controls.Add(this.judithMaxHp);
+            this.groupBox6.Controls.Add(this.judithLvl);
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(401, 124);
@@ -2093,47 +2095,77 @@
             this.label56.TabIndex = 14;
             this.label56.Text = "M.ATK";
             // 
-            // numericUpDown51
+            // judithMDef
             // 
-            this.numericUpDown51.Location = new System.Drawing.Point(201, 91);
-            this.numericUpDown51.Name = "numericUpDown51";
-            this.numericUpDown51.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown51.TabIndex = 13;
+            this.judithMDef.Location = new System.Drawing.Point(201, 91);
+            this.judithMDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithMDef.Name = "judithMDef";
+            this.judithMDef.Size = new System.Drawing.Size(59, 22);
+            this.judithMDef.TabIndex = 13;
             // 
-            // numericUpDown52
+            // judithAgi
             // 
-            this.numericUpDown52.Location = new System.Drawing.Point(266, 91);
-            this.numericUpDown52.Name = "numericUpDown52";
-            this.numericUpDown52.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown52.TabIndex = 12;
+            this.judithAgi.Location = new System.Drawing.Point(266, 91);
+            this.judithAgi.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithAgi.Name = "judithAgi";
+            this.judithAgi.Size = new System.Drawing.Size(59, 22);
+            this.judithAgi.TabIndex = 12;
             // 
-            // numericUpDown53
+            // judithPDef
             // 
-            this.numericUpDown53.Location = new System.Drawing.Point(136, 91);
-            this.numericUpDown53.Name = "numericUpDown53";
-            this.numericUpDown53.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown53.TabIndex = 11;
+            this.judithPDef.Location = new System.Drawing.Point(136, 91);
+            this.judithPDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithPDef.Name = "judithPDef";
+            this.judithPDef.Size = new System.Drawing.Size(59, 22);
+            this.judithPDef.TabIndex = 11;
             // 
-            // numericUpDown54
+            // judithLuck
             // 
-            this.numericUpDown54.Location = new System.Drawing.Point(331, 91);
-            this.numericUpDown54.Name = "numericUpDown54";
-            this.numericUpDown54.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown54.TabIndex = 10;
+            this.judithLuck.Location = new System.Drawing.Point(331, 91);
+            this.judithLuck.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithLuck.Name = "judithLuck";
+            this.judithLuck.Size = new System.Drawing.Size(59, 22);
+            this.judithLuck.TabIndex = 10;
             // 
-            // numericUpDown55
+            // judithMAtk
             // 
-            this.numericUpDown55.Location = new System.Drawing.Point(71, 91);
-            this.numericUpDown55.Name = "numericUpDown55";
-            this.numericUpDown55.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown55.TabIndex = 9;
+            this.judithMAtk.Location = new System.Drawing.Point(71, 91);
+            this.judithMAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithMAtk.Name = "judithMAtk";
+            this.judithMAtk.Size = new System.Drawing.Size(59, 22);
+            this.judithMAtk.TabIndex = 9;
             // 
-            // numericUpDown56
+            // judithPAtk
             // 
-            this.numericUpDown56.Location = new System.Drawing.Point(6, 91);
-            this.numericUpDown56.Name = "numericUpDown56";
-            this.numericUpDown56.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown56.TabIndex = 8;
+            this.judithPAtk.Location = new System.Drawing.Point(6, 91);
+            this.judithPAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithPAtk.Name = "judithPAtk";
+            this.judithPAtk.Size = new System.Drawing.Size(59, 22);
+            this.judithPAtk.TabIndex = 8;
             // 
             // label57
             // 
@@ -2171,33 +2203,53 @@
             this.label60.TabIndex = 4;
             this.label60.Text = "Level";
             // 
-            // numericUpDown57
+            // judithExp
             // 
-            this.numericUpDown57.Location = new System.Drawing.Point(232, 33);
-            this.numericUpDown57.Name = "numericUpDown57";
-            this.numericUpDown57.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown57.TabIndex = 3;
+            this.judithExp.Location = new System.Drawing.Point(232, 33);
+            this.judithExp.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
+            this.judithExp.Name = "judithExp";
+            this.judithExp.Size = new System.Drawing.Size(68, 22);
+            this.judithExp.TabIndex = 3;
             // 
-            // numericUpDown58
+            // judithMaxTp
             // 
-            this.numericUpDown58.Location = new System.Drawing.Point(158, 33);
-            this.numericUpDown58.Name = "numericUpDown58";
-            this.numericUpDown58.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown58.TabIndex = 2;
+            this.judithMaxTp.Location = new System.Drawing.Point(158, 33);
+            this.judithMaxTp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.judithMaxTp.Name = "judithMaxTp";
+            this.judithMaxTp.Size = new System.Drawing.Size(68, 22);
+            this.judithMaxTp.TabIndex = 2;
             // 
-            // numericUpDown59
+            // judithMaxHp
             // 
-            this.numericUpDown59.Location = new System.Drawing.Point(82, 33);
-            this.numericUpDown59.Name = "numericUpDown59";
-            this.numericUpDown59.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown59.TabIndex = 1;
+            this.judithMaxHp.Location = new System.Drawing.Point(82, 33);
+            this.judithMaxHp.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.judithMaxHp.Name = "judithMaxHp";
+            this.judithMaxHp.Size = new System.Drawing.Size(70, 22);
+            this.judithMaxHp.TabIndex = 1;
             // 
-            // numericUpDown60
+            // judithLvl
             // 
-            this.numericUpDown60.Location = new System.Drawing.Point(6, 33);
-            this.numericUpDown60.Name = "numericUpDown60";
-            this.numericUpDown60.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown60.TabIndex = 0;
+            this.judithLvl.Location = new System.Drawing.Point(6, 33);
+            this.judithLvl.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.judithLvl.Name = "judithLvl";
+            this.judithLvl.Size = new System.Drawing.Size(70, 22);
+            this.judithLvl.TabIndex = 0;
             // 
             // pictureBox6
             // 
@@ -2850,11 +2902,32 @@
             this.label18.TabIndex = 9;
             this.label18.Text = "All images used are property of Bandai Namco Entertainment";
             // 
+            // fileLoaded
+            // 
+            this.fileLoaded.AutoSize = true;
+            this.fileLoaded.Location = new System.Drawing.Point(12, 446);
+            this.fileLoaded.Name = "fileLoaded";
+            this.fileLoaded.Size = new System.Drawing.Size(115, 13);
+            this.fileLoaded.TabIndex = 10;
+            this.fileLoaded.Text = "file loaded successfully";
+            this.fileLoaded.Visible = false;
+            // 
+            // fileSaved
+            // 
+            this.fileSaved.AutoSize = true;
+            this.fileSaved.Location = new System.Drawing.Point(13, 445);
+            this.fileSaved.Name = "fileSaved";
+            this.fileSaved.Size = new System.Drawing.Size(0, 13);
+            this.fileSaved.TabIndex = 11;
+            this.fileSaved.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(620, 461);
+            this.Controls.Add(this.fileSaved);
+            this.Controls.Add(this.fileLoaded);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.successLabel);
             this.Controls.Add(this.progressBar1);
@@ -2954,16 +3027,16 @@
             this.tabPage7.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithAgi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithPDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithLuck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithPAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithExp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxTp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithMaxHp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.judithLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
@@ -3140,20 +3213,20 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.NumericUpDown numericUpDown51;
-        private System.Windows.Forms.NumericUpDown numericUpDown52;
-        private System.Windows.Forms.NumericUpDown numericUpDown53;
-        private System.Windows.Forms.NumericUpDown numericUpDown54;
-        private System.Windows.Forms.NumericUpDown numericUpDown55;
-        private System.Windows.Forms.NumericUpDown numericUpDown56;
+        private System.Windows.Forms.NumericUpDown judithMDef;
+        private System.Windows.Forms.NumericUpDown judithAgi;
+        private System.Windows.Forms.NumericUpDown judithPDef;
+        private System.Windows.Forms.NumericUpDown judithLuck;
+        private System.Windows.Forms.NumericUpDown judithMAtk;
+        private System.Windows.Forms.NumericUpDown judithPAtk;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.NumericUpDown numericUpDown57;
-        private System.Windows.Forms.NumericUpDown numericUpDown58;
-        private System.Windows.Forms.NumericUpDown numericUpDown59;
-        private System.Windows.Forms.NumericUpDown numericUpDown60;
+        private System.Windows.Forms.NumericUpDown judithExp;
+        private System.Windows.Forms.NumericUpDown judithMaxTp;
+        private System.Windows.Forms.NumericUpDown judithMaxHp;
+        private System.Windows.Forms.NumericUpDown judithLvl;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label72;
@@ -3240,6 +3313,8 @@
         private System.Windows.Forms.Label successLabel;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label fileLoaded;
+        private System.Windows.Forms.Label fileSaved;
     }
 }
 

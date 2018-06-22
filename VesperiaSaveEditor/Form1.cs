@@ -8,7 +8,7 @@ namespace VesperiaSaveEditor
     public partial class Form1 : Form
     {
         private byte[] data = new byte[Constants.SAVEDATA_SIZE];
-        private string path = "/";
+        private string file = "";
 
         public Form1()
         {
@@ -35,13 +35,13 @@ namespace VesperiaSaveEditor
             data[addr + 3] = (byte)(value & 0x000000FF);
         }
 
-        public static string GetPath(string fullPath)
+        public static string GetFileName(string fullPath)
         {
             int i = fullPath.Length;
             while (--i > 0)
                 if (fullPath[i] == '/' || fullPath[i] == '\\')
-                    return fullPath.Substring(0, i + 1);
-            return "/";
+                    return fullPath.Substring(i + 1);
+            return "";
         }
         #endregion
 
@@ -135,6 +135,20 @@ namespace VesperiaSaveEditor
             ravenLuck.Value = ReadInt(Offsets.Characters.Raven.luckAddr, (UInt32)ravenLuck.Maximum);
         }
 
+        private void UpdateJudith()
+        {
+            judithLvl.Value = ReadInt(Offsets.Characters.Judith.lvlAddr, (UInt32)judithLvl.Maximum);
+            judithMaxHp.Value = ReadInt(Offsets.Characters.Judith.maxHPAddr, (UInt32)judithMaxHp.Maximum);
+            judithMaxTp.Value = ReadInt(Offsets.Characters.Judith.maxTPAddr, (UInt32)judithMaxTp.Maximum);
+            judithExp.Value = ReadInt(Offsets.Characters.Judith.expAddr, (UInt32)judithExp.Maximum);
+            judithPAtk.Value = ReadInt(Offsets.Characters.Judith.pAtkAddr, (UInt32)judithPAtk.Maximum);
+            judithMAtk.Value = ReadInt(Offsets.Characters.Judith.mAtkAddr, (UInt32)judithMAtk.Maximum);
+            judithPDef.Value = ReadInt(Offsets.Characters.Judith.pDefAddr, (UInt32)judithPDef.Maximum);
+            judithMDef.Value = ReadInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Maximum);
+            judithAgi.Value = ReadInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Maximum);
+            judithLuck.Value = ReadInt(Offsets.Characters.Judith.luckAddr, (UInt32)ravenLuck.Maximum);
+        }
+
         private void UpdateCharacters()
         {
             UpdateYuri();
@@ -143,6 +157,7 @@ namespace VesperiaSaveEditor
             UpdateKarol();
             UpdateRita();
             UpdateRaven();
+            UpdateJudith();
         }
 
         private void UpdateUi()
@@ -226,6 +241,18 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Raven.mDefAddr, (UInt32)ravenMDef.Value);
             WriteInt(Offsets.Characters.Raven.agiAddr, (UInt32)ravenAgi.Value);
             WriteInt(Offsets.Characters.Raven.luckAddr, (UInt32)ravenLuck.Value);
+
+            /* Judith's data */
+            WriteInt(Offsets.Characters.Judith.lvlAddr, (UInt32)judithLvl.Value);
+            WriteInt(Offsets.Characters.Judith.maxHPAddr, (UInt32)judithMaxHp.Value);
+            WriteInt(Offsets.Characters.Judith.maxTPAddr, (UInt32)judithMaxTp.Value);
+            WriteInt(Offsets.Characters.Judith.expAddr, (UInt32)judithExp.Value);
+            WriteInt(Offsets.Characters.Judith.pAtkAddr, (UInt32)judithPAtk.Value);
+            WriteInt(Offsets.Characters.Judith.mAtkAddr, (UInt32)judithMAtk.Value);
+            WriteInt(Offsets.Characters.Judith.pDefAddr, (UInt32)judithPDef.Value);
+            WriteInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Value);
+            WriteInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Value);
+            WriteInt(Offsets.Characters.Judith.luckAddr, (UInt32)judithLuck.Value);
         }
         #endregion
 
@@ -234,7 +261,6 @@ namespace VesperiaSaveEditor
             data = System.IO.File.ReadAllBytes(file);
             if (data.Length == Constants.SAVEDATA_SIZE)
             {
-                path = GetPath(file);
                 UpdateUi();
             }
             else throw new Exception("Unknown file type");
@@ -248,7 +274,8 @@ namespace VesperiaSaveEditor
             {
                 textBox1.Text = openFileDialog1.FileName;
                 ReadSave(openFileDialog1.FileName);
-                WriteInt(Offsets.Characters.Yuri.lvlAddr, 0xABCDEF88);
+                fileSaved.Visible = false;
+                fileLoaded.Visible = true;
             }         
         }
 
@@ -300,6 +327,9 @@ namespace VesperiaSaveEditor
                 File.WriteAllBytes(saveFileDialog1.FileName, data);
                 progressBar1.Value = progressBar1.Maximum;
                 successLabel.Visible = true;
+                fileLoaded.Visible = false;
+                fileSaved.Text = GetFileName(saveFileDialog1.FileName) + " saved successfully!";
+                fileSaved.Visible = true;
             }
         }
     }
