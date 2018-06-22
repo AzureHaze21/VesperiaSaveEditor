@@ -9,10 +9,12 @@ Character editing
 
 # Missing
 Everything else:
-- items
-- grade points
-- costumes
-- party editor
+- Items
+- Skill points
+- Overlimit
+- Grade points / Casino chips
+- Costumes
+- Party editor
 
 # Copyright
 This software is not associated with Tales of Vesperia or the Tales of series. All images used are property of Bandai Namco Entertainment.
