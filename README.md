@@ -6,11 +6,11 @@ This is extremely WIP
 
 # Working
 - Character editing
+- Skill Points
 
 # Missing
 Everything else:
 - Items
-- Skill points
 - Overlimit
 - Grade points / Casino chips
 - Costumes
