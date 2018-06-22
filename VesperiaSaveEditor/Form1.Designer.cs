@@ -201,20 +201,20 @@
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
-            this.numericUpDown61 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown62 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown63 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown64 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown65 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown66 = new System.Windows.Forms.NumericUpDown();
+            this.flynnMDef = new System.Windows.Forms.NumericUpDown();
+            this.flynnAgi = new System.Windows.Forms.NumericUpDown();
+            this.flynnPDef = new System.Windows.Forms.NumericUpDown();
+            this.flynnLuck = new System.Windows.Forms.NumericUpDown();
+            this.flynnMAtk = new System.Windows.Forms.NumericUpDown();
+            this.flynnPAtk = new System.Windows.Forms.NumericUpDown();
             this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
-            this.numericUpDown67 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown68 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown69 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown70 = new System.Windows.Forms.NumericUpDown();
+            this.flynnExp = new System.Windows.Forms.NumericUpDown();
+            this.flynnMaxTp = new System.Windows.Forms.NumericUpDown();
+            this.flynnMaxHp = new System.Windows.Forms.NumericUpDown();
+            this.flynnLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
@@ -224,20 +224,20 @@
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
-            this.numericUpDown71 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown72 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown73 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown74 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown75 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown76 = new System.Windows.Forms.NumericUpDown();
+            this.pattyMDef = new System.Windows.Forms.NumericUpDown();
+            this.pattyAgi = new System.Windows.Forms.NumericUpDown();
+            this.pattyPDef = new System.Windows.Forms.NumericUpDown();
+            this.pattyLuck = new System.Windows.Forms.NumericUpDown();
+            this.pattyMAtk = new System.Windows.Forms.NumericUpDown();
+            this.pattyPAtk = new System.Windows.Forms.NumericUpDown();
             this.label77 = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.label80 = new System.Windows.Forms.Label();
-            this.numericUpDown77 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown78 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown79 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown80 = new System.Windows.Forms.NumericUpDown();
+            this.pattyExp = new System.Windows.Forms.NumericUpDown();
+            this.pattyMaxTp = new System.Windows.Forms.NumericUpDown();
+            this.pattyMaxHp = new System.Windows.Forms.NumericUpDown();
+            this.pattyLvl = new System.Windows.Forms.NumericUpDown();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.tabPage11 = new System.Windows.Forms.TabPage();
@@ -357,29 +357,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabPage8.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnAgi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnPDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnLuck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnPAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnExp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxTp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxHp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tabPage9.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown78)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown79)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyAgi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyPDef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyLuck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyPAtk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyExp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxTp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxHp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyLvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabPage11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -2280,20 +2280,20 @@
             this.groupBox7.Controls.Add(this.label64);
             this.groupBox7.Controls.Add(this.label65);
             this.groupBox7.Controls.Add(this.label66);
-            this.groupBox7.Controls.Add(this.numericUpDown61);
-            this.groupBox7.Controls.Add(this.numericUpDown62);
-            this.groupBox7.Controls.Add(this.numericUpDown63);
-            this.groupBox7.Controls.Add(this.numericUpDown64);
-            this.groupBox7.Controls.Add(this.numericUpDown65);
-            this.groupBox7.Controls.Add(this.numericUpDown66);
+            this.groupBox7.Controls.Add(this.flynnMDef);
+            this.groupBox7.Controls.Add(this.flynnAgi);
+            this.groupBox7.Controls.Add(this.flynnPDef);
+            this.groupBox7.Controls.Add(this.flynnLuck);
+            this.groupBox7.Controls.Add(this.flynnMAtk);
+            this.groupBox7.Controls.Add(this.flynnPAtk);
             this.groupBox7.Controls.Add(this.label67);
             this.groupBox7.Controls.Add(this.label68);
             this.groupBox7.Controls.Add(this.label69);
             this.groupBox7.Controls.Add(this.label70);
-            this.groupBox7.Controls.Add(this.numericUpDown67);
-            this.groupBox7.Controls.Add(this.numericUpDown68);
-            this.groupBox7.Controls.Add(this.numericUpDown69);
-            this.groupBox7.Controls.Add(this.numericUpDown70);
+            this.groupBox7.Controls.Add(this.flynnExp);
+            this.groupBox7.Controls.Add(this.flynnMaxTp);
+            this.groupBox7.Controls.Add(this.flynnMaxHp);
+            this.groupBox7.Controls.Add(this.flynnLvl);
             this.groupBox7.Location = new System.Drawing.Point(3, 3);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(401, 124);
@@ -2355,47 +2355,77 @@
             this.label66.TabIndex = 14;
             this.label66.Text = "M.ATK";
             // 
-            // numericUpDown61
+            // flynnMDef
             // 
-            this.numericUpDown61.Location = new System.Drawing.Point(201, 91);
-            this.numericUpDown61.Name = "numericUpDown61";
-            this.numericUpDown61.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown61.TabIndex = 13;
+            this.flynnMDef.Location = new System.Drawing.Point(201, 91);
+            this.flynnMDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnMDef.Name = "flynnMDef";
+            this.flynnMDef.Size = new System.Drawing.Size(59, 22);
+            this.flynnMDef.TabIndex = 13;
             // 
-            // numericUpDown62
+            // flynnAgi
             // 
-            this.numericUpDown62.Location = new System.Drawing.Point(266, 91);
-            this.numericUpDown62.Name = "numericUpDown62";
-            this.numericUpDown62.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown62.TabIndex = 12;
+            this.flynnAgi.Location = new System.Drawing.Point(266, 91);
+            this.flynnAgi.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnAgi.Name = "flynnAgi";
+            this.flynnAgi.Size = new System.Drawing.Size(59, 22);
+            this.flynnAgi.TabIndex = 12;
             // 
-            // numericUpDown63
+            // flynnPDef
             // 
-            this.numericUpDown63.Location = new System.Drawing.Point(136, 91);
-            this.numericUpDown63.Name = "numericUpDown63";
-            this.numericUpDown63.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown63.TabIndex = 11;
+            this.flynnPDef.Location = new System.Drawing.Point(136, 91);
+            this.flynnPDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnPDef.Name = "flynnPDef";
+            this.flynnPDef.Size = new System.Drawing.Size(59, 22);
+            this.flynnPDef.TabIndex = 11;
             // 
-            // numericUpDown64
+            // flynnLuck
             // 
-            this.numericUpDown64.Location = new System.Drawing.Point(331, 91);
-            this.numericUpDown64.Name = "numericUpDown64";
-            this.numericUpDown64.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown64.TabIndex = 10;
+            this.flynnLuck.Location = new System.Drawing.Point(331, 91);
+            this.flynnLuck.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnLuck.Name = "flynnLuck";
+            this.flynnLuck.Size = new System.Drawing.Size(59, 22);
+            this.flynnLuck.TabIndex = 10;
             // 
-            // numericUpDown65
+            // flynnMAtk
             // 
-            this.numericUpDown65.Location = new System.Drawing.Point(71, 91);
-            this.numericUpDown65.Name = "numericUpDown65";
-            this.numericUpDown65.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown65.TabIndex = 9;
+            this.flynnMAtk.Location = new System.Drawing.Point(71, 91);
+            this.flynnMAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnMAtk.Name = "flynnMAtk";
+            this.flynnMAtk.Size = new System.Drawing.Size(59, 22);
+            this.flynnMAtk.TabIndex = 9;
             // 
-            // numericUpDown66
+            // flynnPAtk
             // 
-            this.numericUpDown66.Location = new System.Drawing.Point(6, 91);
-            this.numericUpDown66.Name = "numericUpDown66";
-            this.numericUpDown66.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown66.TabIndex = 8;
+            this.flynnPAtk.Location = new System.Drawing.Point(6, 91);
+            this.flynnPAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnPAtk.Name = "flynnPAtk";
+            this.flynnPAtk.Size = new System.Drawing.Size(59, 22);
+            this.flynnPAtk.TabIndex = 8;
             // 
             // label67
             // 
@@ -2433,33 +2463,53 @@
             this.label70.TabIndex = 4;
             this.label70.Text = "Level";
             // 
-            // numericUpDown67
+            // flynnExp
             // 
-            this.numericUpDown67.Location = new System.Drawing.Point(232, 33);
-            this.numericUpDown67.Name = "numericUpDown67";
-            this.numericUpDown67.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown67.TabIndex = 3;
+            this.flynnExp.Location = new System.Drawing.Point(232, 33);
+            this.flynnExp.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
+            this.flynnExp.Name = "flynnExp";
+            this.flynnExp.Size = new System.Drawing.Size(68, 22);
+            this.flynnExp.TabIndex = 3;
             // 
-            // numericUpDown68
+            // flynnMaxTp
             // 
-            this.numericUpDown68.Location = new System.Drawing.Point(158, 33);
-            this.numericUpDown68.Name = "numericUpDown68";
-            this.numericUpDown68.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown68.TabIndex = 2;
+            this.flynnMaxTp.Location = new System.Drawing.Point(158, 33);
+            this.flynnMaxTp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.flynnMaxTp.Name = "flynnMaxTp";
+            this.flynnMaxTp.Size = new System.Drawing.Size(68, 22);
+            this.flynnMaxTp.TabIndex = 2;
             // 
-            // numericUpDown69
+            // flynnMaxHp
             // 
-            this.numericUpDown69.Location = new System.Drawing.Point(82, 33);
-            this.numericUpDown69.Name = "numericUpDown69";
-            this.numericUpDown69.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown69.TabIndex = 1;
+            this.flynnMaxHp.Location = new System.Drawing.Point(82, 33);
+            this.flynnMaxHp.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.flynnMaxHp.Name = "flynnMaxHp";
+            this.flynnMaxHp.Size = new System.Drawing.Size(70, 22);
+            this.flynnMaxHp.TabIndex = 1;
             // 
-            // numericUpDown70
+            // flynnLvl
             // 
-            this.numericUpDown70.Location = new System.Drawing.Point(6, 33);
-            this.numericUpDown70.Name = "numericUpDown70";
-            this.numericUpDown70.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown70.TabIndex = 0;
+            this.flynnLvl.Location = new System.Drawing.Point(6, 33);
+            this.flynnLvl.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.flynnLvl.Name = "flynnLvl";
+            this.flynnLvl.Size = new System.Drawing.Size(70, 22);
+            this.flynnLvl.TabIndex = 0;
             // 
             // pictureBox10
             // 
@@ -2490,20 +2540,20 @@
             this.groupBox8.Controls.Add(this.label74);
             this.groupBox8.Controls.Add(this.label75);
             this.groupBox8.Controls.Add(this.label76);
-            this.groupBox8.Controls.Add(this.numericUpDown71);
-            this.groupBox8.Controls.Add(this.numericUpDown72);
-            this.groupBox8.Controls.Add(this.numericUpDown73);
-            this.groupBox8.Controls.Add(this.numericUpDown74);
-            this.groupBox8.Controls.Add(this.numericUpDown75);
-            this.groupBox8.Controls.Add(this.numericUpDown76);
+            this.groupBox8.Controls.Add(this.pattyMDef);
+            this.groupBox8.Controls.Add(this.pattyAgi);
+            this.groupBox8.Controls.Add(this.pattyPDef);
+            this.groupBox8.Controls.Add(this.pattyLuck);
+            this.groupBox8.Controls.Add(this.pattyMAtk);
+            this.groupBox8.Controls.Add(this.pattyPAtk);
             this.groupBox8.Controls.Add(this.label77);
             this.groupBox8.Controls.Add(this.label78);
             this.groupBox8.Controls.Add(this.label79);
             this.groupBox8.Controls.Add(this.label80);
-            this.groupBox8.Controls.Add(this.numericUpDown77);
-            this.groupBox8.Controls.Add(this.numericUpDown78);
-            this.groupBox8.Controls.Add(this.numericUpDown79);
-            this.groupBox8.Controls.Add(this.numericUpDown80);
+            this.groupBox8.Controls.Add(this.pattyExp);
+            this.groupBox8.Controls.Add(this.pattyMaxTp);
+            this.groupBox8.Controls.Add(this.pattyMaxHp);
+            this.groupBox8.Controls.Add(this.pattyLvl);
             this.groupBox8.Location = new System.Drawing.Point(3, 3);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(401, 124);
@@ -2565,47 +2615,77 @@
             this.label76.TabIndex = 14;
             this.label76.Text = "M.ATK";
             // 
-            // numericUpDown71
+            // pattyMDef
             // 
-            this.numericUpDown71.Location = new System.Drawing.Point(201, 91);
-            this.numericUpDown71.Name = "numericUpDown71";
-            this.numericUpDown71.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown71.TabIndex = 13;
+            this.pattyMDef.Location = new System.Drawing.Point(201, 91);
+            this.pattyMDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyMDef.Name = "pattyMDef";
+            this.pattyMDef.Size = new System.Drawing.Size(59, 22);
+            this.pattyMDef.TabIndex = 13;
             // 
-            // numericUpDown72
+            // pattyAgi
             // 
-            this.numericUpDown72.Location = new System.Drawing.Point(266, 91);
-            this.numericUpDown72.Name = "numericUpDown72";
-            this.numericUpDown72.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown72.TabIndex = 12;
+            this.pattyAgi.Location = new System.Drawing.Point(266, 91);
+            this.pattyAgi.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyAgi.Name = "pattyAgi";
+            this.pattyAgi.Size = new System.Drawing.Size(59, 22);
+            this.pattyAgi.TabIndex = 12;
             // 
-            // numericUpDown73
+            // pattyPDef
             // 
-            this.numericUpDown73.Location = new System.Drawing.Point(136, 91);
-            this.numericUpDown73.Name = "numericUpDown73";
-            this.numericUpDown73.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown73.TabIndex = 11;
+            this.pattyPDef.Location = new System.Drawing.Point(136, 91);
+            this.pattyPDef.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyPDef.Name = "pattyPDef";
+            this.pattyPDef.Size = new System.Drawing.Size(59, 22);
+            this.pattyPDef.TabIndex = 11;
             // 
-            // numericUpDown74
+            // pattyLuck
             // 
-            this.numericUpDown74.Location = new System.Drawing.Point(331, 91);
-            this.numericUpDown74.Name = "numericUpDown74";
-            this.numericUpDown74.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown74.TabIndex = 10;
+            this.pattyLuck.Location = new System.Drawing.Point(331, 91);
+            this.pattyLuck.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyLuck.Name = "pattyLuck";
+            this.pattyLuck.Size = new System.Drawing.Size(59, 22);
+            this.pattyLuck.TabIndex = 10;
             // 
-            // numericUpDown75
+            // pattyMAtk
             // 
-            this.numericUpDown75.Location = new System.Drawing.Point(71, 91);
-            this.numericUpDown75.Name = "numericUpDown75";
-            this.numericUpDown75.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown75.TabIndex = 9;
+            this.pattyMAtk.Location = new System.Drawing.Point(71, 91);
+            this.pattyMAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyMAtk.Name = "pattyMAtk";
+            this.pattyMAtk.Size = new System.Drawing.Size(59, 22);
+            this.pattyMAtk.TabIndex = 9;
             // 
-            // numericUpDown76
+            // pattyPAtk
             // 
-            this.numericUpDown76.Location = new System.Drawing.Point(6, 91);
-            this.numericUpDown76.Name = "numericUpDown76";
-            this.numericUpDown76.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown76.TabIndex = 8;
+            this.pattyPAtk.Location = new System.Drawing.Point(6, 91);
+            this.pattyPAtk.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyPAtk.Name = "pattyPAtk";
+            this.pattyPAtk.Size = new System.Drawing.Size(59, 22);
+            this.pattyPAtk.TabIndex = 8;
             // 
             // label77
             // 
@@ -2643,33 +2723,53 @@
             this.label80.TabIndex = 4;
             this.label80.Text = "Level";
             // 
-            // numericUpDown77
+            // pattyExp
             // 
-            this.numericUpDown77.Location = new System.Drawing.Point(232, 33);
-            this.numericUpDown77.Name = "numericUpDown77";
-            this.numericUpDown77.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown77.TabIndex = 3;
+            this.pattyExp.Location = new System.Drawing.Point(232, 33);
+            this.pattyExp.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
+            this.pattyExp.Name = "pattyExp";
+            this.pattyExp.Size = new System.Drawing.Size(68, 22);
+            this.pattyExp.TabIndex = 3;
             // 
-            // numericUpDown78
+            // pattyMaxTp
             // 
-            this.numericUpDown78.Location = new System.Drawing.Point(158, 33);
-            this.numericUpDown78.Name = "numericUpDown78";
-            this.numericUpDown78.Size = new System.Drawing.Size(68, 22);
-            this.numericUpDown78.TabIndex = 2;
+            this.pattyMaxTp.Location = new System.Drawing.Point(158, 33);
+            this.pattyMaxTp.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.pattyMaxTp.Name = "pattyMaxTp";
+            this.pattyMaxTp.Size = new System.Drawing.Size(68, 22);
+            this.pattyMaxTp.TabIndex = 2;
             // 
-            // numericUpDown79
+            // pattyMaxHp
             // 
-            this.numericUpDown79.Location = new System.Drawing.Point(82, 33);
-            this.numericUpDown79.Name = "numericUpDown79";
-            this.numericUpDown79.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown79.TabIndex = 1;
+            this.pattyMaxHp.Location = new System.Drawing.Point(82, 33);
+            this.pattyMaxHp.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.pattyMaxHp.Name = "pattyMaxHp";
+            this.pattyMaxHp.Size = new System.Drawing.Size(70, 22);
+            this.pattyMaxHp.TabIndex = 1;
             // 
-            // numericUpDown80
+            // pattyLvl
             // 
-            this.numericUpDown80.Location = new System.Drawing.Point(6, 33);
-            this.numericUpDown80.Name = "numericUpDown80";
-            this.numericUpDown80.Size = new System.Drawing.Size(70, 22);
-            this.numericUpDown80.TabIndex = 0;
+            this.pattyLvl.Location = new System.Drawing.Point(6, 33);
+            this.pattyLvl.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.pattyLvl.Name = "pattyLvl";
+            this.pattyLvl.Size = new System.Drawing.Size(70, 22);
+            this.pattyLvl.TabIndex = 0;
             // 
             // pictureBox5
             // 
@@ -3041,30 +3141,30 @@
             this.tabPage8.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnAgi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnPDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnLuck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnPAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnExp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxTp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnMaxHp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flynnLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.tabPage9.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown78)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown79)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyAgi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyPDef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyLuck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyPAtk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyExp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxTp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyMaxHp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pattyLvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabPage11.ResumeLayout(false);
             this.tabPage11.PerformLayout();
@@ -3234,20 +3334,20 @@
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.NumericUpDown numericUpDown71;
-        private System.Windows.Forms.NumericUpDown numericUpDown72;
-        private System.Windows.Forms.NumericUpDown numericUpDown73;
-        private System.Windows.Forms.NumericUpDown numericUpDown74;
-        private System.Windows.Forms.NumericUpDown numericUpDown75;
-        private System.Windows.Forms.NumericUpDown numericUpDown76;
+        private System.Windows.Forms.NumericUpDown pattyMDef;
+        private System.Windows.Forms.NumericUpDown pattyAgi;
+        private System.Windows.Forms.NumericUpDown pattyPDef;
+        private System.Windows.Forms.NumericUpDown pattyLuck;
+        private System.Windows.Forms.NumericUpDown pattyMAtk;
+        private System.Windows.Forms.NumericUpDown pattyPAtk;
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label label79;
         private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.NumericUpDown numericUpDown77;
-        private System.Windows.Forms.NumericUpDown numericUpDown78;
-        private System.Windows.Forms.NumericUpDown numericUpDown79;
-        private System.Windows.Forms.NumericUpDown numericUpDown80;
+        private System.Windows.Forms.NumericUpDown pattyExp;
+        private System.Windows.Forms.NumericUpDown pattyMaxTp;
+        private System.Windows.Forms.NumericUpDown pattyMaxHp;
+        private System.Windows.Forms.NumericUpDown pattyLvl;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Label label82;
@@ -3276,20 +3376,20 @@
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.NumericUpDown numericUpDown61;
-        private System.Windows.Forms.NumericUpDown numericUpDown62;
-        private System.Windows.Forms.NumericUpDown numericUpDown63;
-        private System.Windows.Forms.NumericUpDown numericUpDown64;
-        private System.Windows.Forms.NumericUpDown numericUpDown65;
-        private System.Windows.Forms.NumericUpDown numericUpDown66;
+        private System.Windows.Forms.NumericUpDown flynnMDef;
+        private System.Windows.Forms.NumericUpDown flynnAgi;
+        private System.Windows.Forms.NumericUpDown flynnPDef;
+        private System.Windows.Forms.NumericUpDown flynnLuck;
+        private System.Windows.Forms.NumericUpDown flynnMAtk;
+        private System.Windows.Forms.NumericUpDown flynnPAtk;
         private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.NumericUpDown numericUpDown67;
-        private System.Windows.Forms.NumericUpDown numericUpDown68;
-        private System.Windows.Forms.NumericUpDown numericUpDown69;
-        private System.Windows.Forms.NumericUpDown numericUpDown70;
+        private System.Windows.Forms.NumericUpDown flynnExp;
+        private System.Windows.Forms.NumericUpDown flynnMaxTp;
+        private System.Windows.Forms.NumericUpDown flynnMaxHp;
+        private System.Windows.Forms.NumericUpDown flynnLvl;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.TabPage tabPage11;

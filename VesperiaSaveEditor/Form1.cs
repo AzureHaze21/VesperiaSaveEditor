@@ -146,7 +146,35 @@ namespace VesperiaSaveEditor
             judithPDef.Value = ReadInt(Offsets.Characters.Judith.pDefAddr, (UInt32)judithPDef.Maximum);
             judithMDef.Value = ReadInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Maximum);
             judithAgi.Value = ReadInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Maximum);
-            judithLuck.Value = ReadInt(Offsets.Characters.Judith.luckAddr, (UInt32)ravenLuck.Maximum);
+            judithLuck.Value = ReadInt(Offsets.Characters.Judith.luckAddr, (UInt32)judithLuck.Maximum);
+        }
+
+        private void UpdateFlynn()
+        {
+            flynnLvl.Value = ReadInt(Offsets.Characters.Flynn.lvlAddr, (UInt32)flynnLvl.Maximum);
+            flynnMaxHp.Value = ReadInt(Offsets.Characters.Flynn.maxHPAddr, (UInt32)flynnMaxHp.Maximum);
+            flynnMaxTp.Value = ReadInt(Offsets.Characters.Flynn.maxTPAddr, (UInt32)flynnMaxTp.Maximum);
+            flynnExp.Value = ReadInt(Offsets.Characters.Flynn.expAddr, (UInt32)flynnExp.Maximum);
+            flynnPAtk.Value = ReadInt(Offsets.Characters.Flynn.pAtkAddr, (UInt32)flynnPAtk.Maximum);
+            flynnMAtk.Value = ReadInt(Offsets.Characters.Flynn.mAtkAddr, (UInt32)flynnMAtk.Maximum);
+            flynnPDef.Value = ReadInt(Offsets.Characters.Flynn.pDefAddr, (UInt32)flynnPDef.Maximum);
+            flynnMDef.Value = ReadInt(Offsets.Characters.Flynn.mDefAddr, (UInt32)flynnMDef.Maximum);
+            flynnAgi.Value = ReadInt(Offsets.Characters.Flynn.agiAddr, (UInt32)flynnAgi.Maximum);
+            flynnLuck.Value = ReadInt(Offsets.Characters.Flynn.luckAddr, (UInt32)flynnLuck.Maximum);
+        }
+
+        private void UpdatePatty()
+        {
+            pattyLvl.Value = ReadInt(Offsets.Characters.Patty.lvlAddr, (UInt32)pattyLvl.Maximum);
+            pattyMaxHp.Value = ReadInt(Offsets.Characters.Patty.maxHPAddr, (UInt32)pattyMaxHp.Maximum);
+            pattyMaxTp.Value = ReadInt(Offsets.Characters.Patty.maxTPAddr, (UInt32)pattyMaxTp.Maximum);
+            pattyExp.Value = ReadInt(Offsets.Characters.Patty.expAddr, (UInt32)pattyExp.Maximum);
+            pattyPAtk.Value = ReadInt(Offsets.Characters.Patty.pAtkAddr, (UInt32)pattyPAtk.Maximum);
+            pattyMAtk.Value = ReadInt(Offsets.Characters.Patty.mAtkAddr, (UInt32)pattyMAtk.Maximum);
+            pattyPDef.Value = ReadInt(Offsets.Characters.Patty.pDefAddr, (UInt32)pattyPDef.Maximum);
+            pattyMDef.Value = ReadInt(Offsets.Characters.Patty.mDefAddr, (UInt32)pattyMDef.Maximum);
+            pattyAgi.Value = ReadInt(Offsets.Characters.Patty.agiAddr, (UInt32)pattyAgi.Maximum);
+            pattyLuck.Value = ReadInt(Offsets.Characters.Patty.luckAddr, (UInt32)pattyLuck.Maximum);
         }
 
         private void UpdateCharacters()
@@ -158,6 +186,8 @@ namespace VesperiaSaveEditor
             UpdateRita();
             UpdateRaven();
             UpdateJudith();
+            UpdateFlynn();
+            UpdatePatty();
         }
 
         private void UpdateUi()
@@ -253,6 +283,30 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Judith.mDefAddr, (UInt32)judithMDef.Value);
             WriteInt(Offsets.Characters.Judith.agiAddr, (UInt32)judithAgi.Value);
             WriteInt(Offsets.Characters.Judith.luckAddr, (UInt32)judithLuck.Value);
+
+            /* Flynn's data */
+            WriteInt(Offsets.Characters.Flynn.lvlAddr, (UInt32)flynnLvl.Value);
+            WriteInt(Offsets.Characters.Flynn.maxHPAddr, (UInt32)flynnMaxHp.Value);
+            WriteInt(Offsets.Characters.Flynn.maxTPAddr, (UInt32)flynnMaxTp.Value);
+            WriteInt(Offsets.Characters.Flynn.expAddr, (UInt32)flynnExp.Value);
+            WriteInt(Offsets.Characters.Flynn.pAtkAddr, (UInt32)flynnPAtk.Value);
+            WriteInt(Offsets.Characters.Flynn.mAtkAddr, (UInt32)flynnMAtk.Value);
+            WriteInt(Offsets.Characters.Flynn.pDefAddr, (UInt32)flynnPDef.Value);
+            WriteInt(Offsets.Characters.Flynn.mDefAddr, (UInt32)flynnMDef.Value);
+            WriteInt(Offsets.Characters.Flynn.agiAddr, (UInt32)flynnAgi.Value);
+            WriteInt(Offsets.Characters.Flynn.luckAddr, (UInt32)flynnLuck.Value);
+
+            /* Patty's data */
+            WriteInt(Offsets.Characters.Patty.lvlAddr, (UInt32)pattyLvl.Value);
+            WriteInt(Offsets.Characters.Patty.maxHPAddr, (UInt32)pattyMaxHp.Value);
+            WriteInt(Offsets.Characters.Patty.maxTPAddr, (UInt32)pattyMaxTp.Value);
+            WriteInt(Offsets.Characters.Patty.expAddr, (UInt32)pattyExp.Value);
+            WriteInt(Offsets.Characters.Patty.pAtkAddr, (UInt32)pattyPAtk.Value);
+            WriteInt(Offsets.Characters.Patty.mAtkAddr, (UInt32)pattyMAtk.Value);
+            WriteInt(Offsets.Characters.Patty.pDefAddr, (UInt32)pattyPDef.Value);
+            WriteInt(Offsets.Characters.Patty.mDefAddr, (UInt32)pattyMDef.Value);
+            WriteInt(Offsets.Characters.Patty.agiAddr, (UInt32)pattyAgi.Value);
+            WriteInt(Offsets.Characters.Patty.luckAddr, (UInt32)pattyLuck.Value);
         }
         #endregion
 
