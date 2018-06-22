@@ -5,7 +5,7 @@ Tales of Vesperia PS3 (jp) save editor
 This is extremely WIP
 
 # Working
-Character editing
+- Character editing
 
 # Missing
 Everything else:
