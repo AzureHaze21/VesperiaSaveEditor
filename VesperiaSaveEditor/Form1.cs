@@ -367,6 +367,9 @@ namespace VesperiaSaveEditor
             /* Dlc data */
             for (int i = 0; i < Constants.DlcNames.Length; i++)
                 WriteInt(Offsets.Misc.Dlc.startAddr + (UInt32)(i*4), UInt32.Parse(dlcGridView.Rows[i].Cells["DlcQty"].Value as string));
+            
+            /* Gald */
+            WriteInt(Offsets.Misc.Gald.startAddr, (UInt32)galdValueBox.Value);
         }
         #endregion
 
