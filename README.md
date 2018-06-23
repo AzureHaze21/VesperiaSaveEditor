@@ -7,6 +7,7 @@ This is extremely WIP
 # Working
 - Character editing
 - Skill Points
+- DLCs
 
 # Missing
 Everything else:
