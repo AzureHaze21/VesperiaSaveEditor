@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +8,8 @@ namespace VesperiaSaveEditor
 {
     public static class Constants
     {
-        public static readonly UInt32 SAVEDATA_SIZE = 0xCCCC8;
-        public static readonly UInt32 CHAR_MAX_LVL = 200;
-
-        public static readonly string[] CharacterDlc =
-        {
-            "Yuri", "Estelle", "Karol", "Rita", "Raven", "Judith", "Repede"
-        };
+        public const UInt32 SAVEDATA_SIZE = 0xCCCC8;
+        public const UInt32 CHAR_MAX_LVL = 200;
 
         public static readonly string[] DlcNames =
         {
