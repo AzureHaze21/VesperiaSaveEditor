@@ -2,7 +2,7 @@
 Tales of Vesperia PS3 (jp) save editor
 
 # Disclaimer
-This is extremely WIP
+This is extremely WIP, you need a decrypted save file (use BruteForce Save Data)
 
 # Working
 - Character editing
