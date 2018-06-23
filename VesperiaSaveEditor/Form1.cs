@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-using System.Drawing.Text;
 using VesperiaSE;
 
 namespace VesperiaSaveEditor
@@ -13,10 +12,20 @@ namespace VesperiaSaveEditor
         public Form1()
         {
             InitializeComponent();
+            InitalizeDlcGridView();
         }
 
-        #region Utils
-        private UInt32 ReadInt(UInt32 addr)
+        #region init static grids
+        private void InitalizeDlcGridView()
+        {
+            foreach (var dlc in Constants.DlcNames)
+                dlcGridView.Rows.Add(new string[] { dlc, "0" });
+        }
+
+        #endregion
+
+            #region Utils
+            private UInt32 ReadInt(UInt32 addr)
         {
             return (UInt32)(data[addr] << 24 | data[addr + 1] << 16 | data[addr+2] << 8 | data[addr + 3]);
         }
@@ -49,6 +58,16 @@ namespace VesperiaSaveEditor
         private void UpdateMiscUi()
         {
             galdValueBox.Value = ReadInt(Offsets.Misc.Gald.startAddr, (UInt32)galdValueBox.Maximum);
+        }
+
+        private void UpdateDlcView()
+        {
+            UInt32[] dlcValues = new UInt32[Constants.DlcNames.Length];
+            for (UInt32 i = 0; i < Constants.DlcNames.Length; i++)
+                dlcValues[i] = ReadInt(Offsets.Misc.Dlc.startAddr + (i * sizeof(UInt32)));
+            for (int i = 0; i <  Constants.DlcNames.Length; i++)
+                dlcGridView.Rows[i].Cells["DlcQty"].Value = dlcValues[i].ToString();
+
         }
 
         private void UpdateYuri()
@@ -212,6 +231,7 @@ namespace VesperiaSaveEditor
         {
             UpdateMiscUi();
             UpdateCharacters();
+            UpdateDlcView();
         }
         #endregion
 
@@ -343,6 +363,10 @@ namespace VesperiaSaveEditor
             WriteInt(Offsets.Characters.Patty.luckAddr, (UInt32)pattyLuck.Value);
             WriteInt(Offsets.Characters.Patty.spAddr, (UInt32)pattyCurrSp.Value);
             WriteInt(Offsets.Characters.Patty.maxSpAddr, (UInt32)pattyMaxSp.Value);
+
+            /* Dlc data */
+            for (int i = 0; i < Constants.DlcNames.Length; i++)
+                WriteInt(Offsets.Misc.Dlc.startAddr + (UInt32)(i*4), UInt32.Parse(dlcGridView.Rows[i].Cells["DlcQty"].Value as string));
         }
         #endregion
 
@@ -422,6 +446,24 @@ namespace VesperiaSaveEditor
                 fileSaved.Text = GetFileName(saveFileDialog1.FileName) + " saved successfully!";
                 fileSaved.Visible = true;
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dlcGridView.Rows)
+                row.Cells["DlcQty"].Value = "99";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dlcGridView.Rows)
+                row.Cells["DlcQty"].Value = "0";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dlcGridView.Rows)
+                row.Cells["DlcQty"].Value = "1";
         }
     }
 }

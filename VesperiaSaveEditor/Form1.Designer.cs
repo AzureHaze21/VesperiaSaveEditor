@@ -299,6 +299,7 @@
             this.gradeBox = new System.Windows.Forms.NumericUpDown();
             this.chipsBox = new System.Windows.Forms.NumericUpDown();
             this.galdValueBox = new System.Windows.Forms.NumericUpDown();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
             this.saveTextBox = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -308,6 +309,12 @@
             this.label18 = new System.Windows.Forms.Label();
             this.fileLoaded = new System.Windows.Forms.Label();
             this.fileSaved = new System.Windows.Forms.Label();
+            this.dlcGridView = new System.Windows.Forms.DataGridView();
+            this.DlcName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DlcQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox10.SuspendLayout();
@@ -458,7 +465,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gradeBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chipsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.galdValueBox)).BeginInit();
+            this.tabPage12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dlcGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -498,6 +507,7 @@
             this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Controls.Add(this.tabPage10);
             this.tabControl1.Controls.Add(this.tabPage11);
+            this.tabControl1.Controls.Add(this.tabPage12);
             this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(7, 104);
             this.tabControl1.Name = "tabControl1";
@@ -3383,9 +3393,9 @@
             this.tabPage11.Controls.Add(this.gradeBox);
             this.tabPage11.Controls.Add(this.chipsBox);
             this.tabPage11.Controls.Add(this.galdValueBox);
-            this.tabPage11.Location = new System.Drawing.Point(4, 23);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(600, 312);
+            this.tabPage11.Size = new System.Drawing.Size(600, 313);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Misc";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -3522,6 +3532,22 @@
             this.galdValueBox.Size = new System.Drawing.Size(72, 22);
             this.galdValueBox.TabIndex = 0;
             // 
+            // tabPage12
+            // 
+            this.tabPage12.AutoScroll = true;
+            this.tabPage12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage12.Controls.Add(this.button3);
+            this.tabPage12.Controls.Add(this.button2);
+            this.tabPage12.Controls.Add(this.button1);
+            this.tabPage12.Controls.Add(this.dlcGridView);
+            this.tabPage12.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Size = new System.Drawing.Size(600, 313);
+            this.tabPage12.TabIndex = 11;
+            this.tabPage12.Text = "DLC";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
             // saveTextBox
             // 
             this.saveTextBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3598,6 +3624,75 @@
             this.fileSaved.Size = new System.Drawing.Size(0, 13);
             this.fileSaved.TabIndex = 11;
             this.fileSaved.Visible = false;
+            // 
+            // dlcGridView
+            // 
+            this.dlcGridView.AllowUserToAddRows = false;
+            this.dlcGridView.AllowUserToDeleteRows = false;
+            this.dlcGridView.AllowUserToResizeColumns = false;
+            this.dlcGridView.AllowUserToResizeRows = false;
+            this.dlcGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dlcGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DlcName,
+            this.DlcQty});
+            this.dlcGridView.Location = new System.Drawing.Point(4, 4);
+            this.dlcGridView.Name = "dlcGridView";
+            this.dlcGridView.RowHeadersVisible = false;
+            this.dlcGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dlcGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dlcGridView.Size = new System.Drawing.Size(398, 267);
+            this.dlcGridView.TabIndex = 0;
+            // 
+            // DlcName
+            // 
+            this.DlcName.Frozen = true;
+            this.DlcName.HeaderText = "Dlc";
+            this.DlcName.Name = "DlcName";
+            this.DlcName.ReadOnly = true;
+            this.DlcName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.DlcName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.DlcName.Width = 300;
+            // 
+            // DlcQty
+            // 
+            this.DlcQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.DlcQty.Frozen = true;
+            this.DlcQty.HeaderText = "Qty";
+            this.DlcQty.Name = "DlcQty";
+            this.DlcQty.ReadOnly = true;
+            this.DlcQty.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.DlcQty.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.DlcQty.Width = 95;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(85, 278);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "99 All";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(329, 278);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Remove All";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(4, 278);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "1 all";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -3787,7 +3882,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gradeBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chipsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.galdValueBox)).EndInit();
+            this.tabPage12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dlcGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4075,6 +4172,13 @@
         private System.Windows.Forms.Label label111;
         private System.Windows.Forms.NumericUpDown pattyMaxSp;
         private System.Windows.Forms.NumericUpDown pattyCurrSp;
+        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.DataGridView dlcGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DlcName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DlcQty;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }
 
