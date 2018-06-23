@@ -14,7 +14,7 @@ Everything else:
 - Items
 - Overlimit
 - Grade points / Casino chips
-- Costumes
+- Costumes (other than DLC)
 - Party editor
 
 # Copyright
