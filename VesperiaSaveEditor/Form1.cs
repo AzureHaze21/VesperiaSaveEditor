@@ -24,8 +24,8 @@ namespace VesperiaSaveEditor
 
         #endregion
 
-            #region Utils
-            private UInt32 ReadInt(UInt32 addr)
+        #region Utils
+        private UInt32 ReadInt(UInt32 addr)
         {
             return (UInt32)(data[addr] << 24 | data[addr + 1] << 16 | data[addr+2] << 8 | data[addr + 3]);
         }
